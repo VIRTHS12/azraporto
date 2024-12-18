@@ -1,0 +1,172 @@
+/* Gaya Umum */
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #eaf6ff;
+}
+
+header {
+    background: #b3d8ff;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #004b8d;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #004b8d;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Container utama carousel */
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 90%; /* Sesuaikan dengan kebutuhan */
+    margin: auto;
+    background-color: #f7fbff; /* Warna latar belakang opsional */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Tombol navigasi */
+.carousel-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-btn.prev {
+    left: 0;
+}
+
+.carousel-btn.next {
+    right: 0;
+}
+
+/* Track carousel */
+.carousel-track {
+    display: flex;
+    gap: 20px; /* Jarak antar elemen */
+    overflow-x: auto; /* Aktifkan scroll horizontal */
+    scroll-behavior: smooth; /* Gerakan mulus saat scrolling */
+    padding: 10px;
+}
+
+/* Sembunyikan scrollbar */
+.carousel-track::-webkit-scrollbar {
+    display: none; /* Browser berbasis WebKit */
+}
+
+.carousel-track {
+    scrollbar-width: none; /* Browser berbasis Firefox */
+}
+
+/* Item di dalam carousel */
+.project-item {
+    flex: 0 0 auto; /* Mencegah elemen menyusut */
+    width: 200px; /* Ukuran tetap untuk elemen */
+    background: #fff;
+    border: 2px solid #b3d8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #b3d8ff;
+    border-radius: 5px;
+}
+
+button {
+    background: #b3d8ff;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #91c6ff;
+}
+
+footer {
+    background: #b3d8ff;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.husbu {
+    margin: 0 auto; 
+    max-width: 235px;
+    height: auto;
+    position: relative; 
+    display: block; 
+    bottom: 10px; 
+}
