@@ -1,0 +1,8 @@
+User-agent: *
+Disallow:
+
+# Sediakan akses penuh ke semua halaman
+Allow: /
+
+# Tentukan lokasi sitemap
+Sitemap: https://virths12.github.io/azraporto/sitemap.xml
